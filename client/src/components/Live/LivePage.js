@@ -1,23 +1,17 @@
 import React from 'react';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
-import MenuTab from './LiveTemplateComponent/MenuTab';  
+import MenuTab from './MenuTab';  
 import Page from './LiveTemplateComponent/Page';
 import './LivePage.css';
-import LiveList from './LiveTemplateComponent/LiveList';
+import LivePannel from './LivePannel';
 
 class  LivePage extends React.Component{
 
     render(){
     return (
         <>
-            <div>
-                <MenuTab></MenuTab>
-            </div>
-            <div >
-            <LiveList></LiveList>
-            </div>
-            
-            <div className="Page"><Page></Page></div>
+            <MenuTab />  
+            <LivePannel />  
         </>
     ) 
   }; 

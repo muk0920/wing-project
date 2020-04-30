@@ -12,7 +12,7 @@ function Root() {
             <Route exact path="/" component={HomePage}/>
             <Route exact path="/home" component={HomePage}/>
             <Route exact path="/streaming" component={StreamingPage}/>
-            <Route exact path="/live" component={LivePage}/>
+            <Route path="/live" component={LivePage}/>
             <Route exact path="/support" component={SupportPage}/>
             <Route exact path="/concert" component={ConcertPage}/>
         </>
