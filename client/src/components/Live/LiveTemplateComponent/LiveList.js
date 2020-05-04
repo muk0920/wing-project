@@ -14,10 +14,10 @@ import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import Search from "./Search";
 import VideoPlayer from "./VideoPlayer";
-import ChatBar from './ChatTemplate/ChatBar'; 
+import ChatBar from '../ChatTemplate/ChatBar'; 
 
-//const API_KEY = "AIzaSyAbHU2YayTtCVZw08IGVCni7uVVUitPhPs"; // 상우 API KEY
-const API_KEY = "AIzaSyAuwZEvGnPgEkdiYMxey0RXsCfclb0vJ7k"; // 성건 API KEY
+const API_KEY = "AIzaSyAbHU2YayTtCVZw08IGVCni7uVVUitPhPs"; // 상우 API KEY
+//const API_KEY = "AIzaSyAuwZEvGnPgEkdiYMxey0RXsCfclb0vJ7k"; // 성건 API KEY
 
 class LiveList extends Component {
   constructor(props) {
